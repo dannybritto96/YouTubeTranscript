@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="YouTubeTranscript",
-    version="0.9",
+    version="1.0",
     author="Danie Britto",
     author_email="danieb1996@live.com",
     description="YouTube Transcript Downloader",
