@@ -4,14 +4,19 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example_pkg",
-    version="0.1",
+    name="YouTubeTranscript",
+    version="0.9",
     author="Danie Britto",
     author_email="danieb1996@live.com",
     description="YouTube Transcript Downloader",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/dannybritto96/YouTubeTranscript",
+    install_requires=[
+        "youtube-dl",
+        "bs4",
+        "requests"
+    ],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
