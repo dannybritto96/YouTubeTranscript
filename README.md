@@ -7,7 +7,7 @@ This can be used to download transcripts of YouTube videos from YouTube for vide
 2. Beautiful Soup
 
 ## Usage
-<pre>
+```python
 import YouTubeTranscript
 yt = YouTubeTranscript.get_transcript("https://www.youtube.com/watch?v=8CrOL-ydFMI")
-</pre>
+```
